@@ -88,7 +88,7 @@
    &kp TAB       &kp Q        &kp W        &kp E       &kp R        &kp T             &kp TAB       &kp Q       &kp W        &kp E        &kp R         &kp T
    &kp LCTRL     &kp A        &kp S        &kp D       &kp F        &kp G             &kp LCTRL     &kp A       &kp S        &kp D        &kp F         &kp G
    &kp LSHFT     &kp Z        &kp X        &kp C       &kp V        &kp B             &kp LSHFT     &kp Z       &kp X        &kp C        &kp V         &kp B
-                                           &kp LGUI    &mo 2        &kp LALT          &kp LGUI     &mo 1       &to 0
+                                           &kp LGUI    &mo 2        &kp LALT          &kp LGUI      &mo 1       &to 0
                         >;
                 };
         };
