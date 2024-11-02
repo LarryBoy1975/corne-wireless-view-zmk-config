@@ -32,6 +32,12 @@
             key-positions = <10 41>;
             bindings = <&to 3>;
         };
+        combo_L4 {
+            timeout-ms = <50>;
+            key-positions = <34 41>;
+            bindings = <&to 4>;
+        };
+
     };
 };
 
@@ -42,10 +48,10 @@
                 L0_layer {
                         display-name = "Base";
                         bindings = <
-   &kp TAB       &kp Q         &kp W        &kp E       &kp R        &kp T             &kp Y         &kp U       &kp I        &kp O        &kp P         &kp BSPC
-   &kp LCTRL     &kp A         &kp S        &kp D       &kp F        &kp G             &kp H         &kp J       &kp K        &kp L        &kp SEMI      &kp RET
-   &kp LSHFT     &kp Z         &kp X        &kp C       &kp V        &kp B             &kp N         &kp M       &kp COMMA    &kp DOT      &kp FSLH      &kp ESC
-                                            &kp LGUI    &mo 2        &kp LALT          &kp SPACE     &mo 1       &to 1
+   &kp TAB       &kp Q         &kp W       &kp E       &kp R        &kp T             &kp Y         &kp U       &kp I        &kp O        &kp P         &kp BSPC
+   &kp LCTRL     &kp A         &kp S       &kp D       &kp F        &kp G             &kp H         &kp J       &kp K        &kp L        &kp SEMI      &kp RET
+   &kp LSHFT     &kp Z         &kp X       &kp C       &kp V        &kp B             &kp N         &kp M       &kp COMMA    &kp DOT      &kp FSLH      &kp ESC
+                                           &kp LGUI    &mo 2        &kp LALT          &kp SPACE     &mo 1       &to 1
                         >;
                 };
                 L1_layer {
@@ -74,6 +80,15 @@
    &kp LCTRL     &trans       &trans       &trans       &trans       &trans            &kp L        &kp T        &kp UP       &kp C        &kp V        &kp RET
    &kp LSHFT     &none        &trans       &trans       &trans       &trans            &kp Z        &kp LEFT     &kp DOWN     &kp RIGHT    &kp LSHFT    &kp ESC
                     	                   &kp LGUI     &trans       &kp SPACE         &kp SPACE    &kp LCTRL    &kp LALT
+                        >;
+                };
+                L3_layer {
+                        display-name = "Raise2";
+                        bindings = <
+   &kp TAB       &kp Q        &kp W        &kp E       &kp R        &kp T             &kp TAB       &kp Q       &kp W        &kp E        &kp R         &kp T
+   &kp LCTRL     &kp A        &kp S        &kp D       &kp F        &kp G             &kp LCTRL     &kp A       &kp S        &kp D        &kp F         &kp G
+   &kp LSHFT     &kp Z        &kp X        &kp C       &kp V        &kp B             &kp LSHFT     &kp Z       &kp X        &kp C        &kp V         &kp B
+                                           &kp LGUI    &mo 2        &kp LALT          &kp LGUI     &mo 1       &to 0
                         >;
                 };
         };
