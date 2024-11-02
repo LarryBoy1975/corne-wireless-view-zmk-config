@@ -82,8 +82,8 @@
                     	                   &kp LGUI     &trans       &kp SPACE         &kp SPACE    &kp LCTRL    &kp LALT
                         >;
                 };
-                L3_layer {
-                        display-name = "Raise2";
+                L4_layer {
+                        display-name = "Raise3";
                         bindings = <
    &kp TAB       &kp Q        &kp W        &kp E       &kp R        &kp T             &kp TAB       &kp Q       &kp W        &kp E        &kp R         &kp T
    &kp LCTRL     &kp A        &kp S        &kp D       &kp F        &kp G             &kp LCTRL     &kp A       &kp S        &kp D        &kp F         &kp G
