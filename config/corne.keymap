@@ -44,7 +44,6 @@
 / {
         keymap {
                 compatible = "zmk,keymap";
-
                 L0_layer {
                         display-name = "Base";
                         bindings = <
@@ -63,7 +62,6 @@
                           	               &kp LGUI     &trans       &kp SPACE         &kp SPACE    &kp LSHFT    &to 0
                         >;
                 };
-
                 L2_layer {
                         display-name = "Raise";
                         bindings = <
