@@ -37,7 +37,11 @@
             key-positions = <34 41>;
             bindings = <&to 4>;
         };
-
+        combo_L5 {
+            timeout-ms = <50>;
+            key-positions = <35 41>;
+            bindings = <&to 5>;
+        };
     };
 };
 
@@ -87,6 +91,15 @@
    &kp LCTRL     &kp A        &kp S        &kp D       &kp F        &kp G             &kp LCTRL     &kp A       &kp S        &kp D        &kp F         &kp G
    &kp LSHFT     &kp Z        &kp X        &kp C       &kp V        &kp B             &kp LSHFT     &kp Z       &kp X        &kp C        &kp V         &kp B
                                            &kp LGUI    &mo 2        &kp LALT          &kp LGUI      &mo 1       &to 0
+                        >;
+                };
+                L5_layer {
+                        display-name = "m8";
+                        bindings = <
+   &kp TAB       &kp N1       &kp N2       &kp N3       &kp N4       &kp N5            &kp N6       &kp N7       &kp N8       &kp N9       &kp N0       &kp BSPC
+   &kp LCTRL     &kp EXCL     &kp AT       &kp HASH     &kp DLLR     &kp PRCNT         &kp PG_DN    &kp PG_UP    &kp UP       &trans       &kp SQT      &kp LSHFT
+   &kp LSHFT     &kp CARET    &kp AMPS     &kp KP_MULTIPLY &kp LPAR  &kp RPAR          &kp CLCK     &kp LEFT     &kp DOWN     &kp RIGHT    &kp x        &kp z
+                                           &kp LGUI     &trans       &kp SPACE         &kp SPACE    &kp LSHFT    &to x
                         >;
                 };
         };
