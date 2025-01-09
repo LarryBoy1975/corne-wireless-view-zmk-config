@@ -32,11 +32,6 @@
             key-positions = <10 41>;
             bindings = <&to 3>;
         };
-        combo_L4 {
-            timeout-ms = <50>;
-            key-positions = <34 41>;
-            bindings = <&to 4>;
-        };
         combo_L5 {
             timeout-ms = <50>;
             key-positions = <22 41>;
