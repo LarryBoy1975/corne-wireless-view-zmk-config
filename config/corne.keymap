@@ -58,7 +58,7 @@
    &kp TAB       &kp N1       &kp N2       &kp N3       &kp N4       &kp N5            &kp N6       &kp N7       &kp N8       &kp N9       &kp N0       &kp BSPC
    &kp LCTRL     &kp EXCL     &kp AT       &kp HASH     &kp DLLR     &kp PRCNT         &kp PG_DN    &kp PG_UP    &kp UP       &trans       &kp SQT      &kp LSHFT
    &kp LSHFT     &kp CARET    &kp AMPS     &kp KP_MULTIPLY &kp LPAR  &kp RPAR          &kp CLCK     &kp LEFT     &kp DOWN     &kp RIGHT    &kp LCTRL    &kp LALT
-                                           &kp LGUI     &trans       &kp SPACE         &kp SPACE    &trans       &to 0
+                                           &kp LGUI     &trans       &kp LALT          &kp SPACE    &trans       &to 0
                         >;
                 };
                 L2_layer {
@@ -84,8 +84,8 @@
                         bindings = <
    &kp TAB       &kp N1       &kp N2       &kp N3       &kp N4       &kp N5            &kp N6       &kp N7       &kp N8       &kp N9       &kp N0       &kp BSPC
    &kp LCTRL     &kp EXCL     &kp AT       &kp HASH     &kp DLLR     &kp PRCNT         &kp PG_DN    &kp PG_UP    &kp UP       &kp PRCNT    &kp SQT      &kp LSHFT
-   &kp LSHFT     &kp CARET    &kp AMPS     &kp KP_MULTIPLY &kp LPAR  &kp RPAR          &kp Z        &kp LEFT     &kp DOWN     &kp RIGHT    &kp LCTRL    &kp LALT
-                                           &kp LGUI     &trans       &kp SPACE         &kp SPACE    &kp LSHFT    &kp X
+   &kp LSHFT     &kp CARET    &kp AMPS     &kp KP_MULTIPLY &kp LPAR  &kp RPAR          &kp Z        &kp LEFT     &kp DOWN     &kp RIGHT    &kp Z        &kp X
+                                           &kp LGUI     &trans       &kp LALT          &kp SPACE    &kp LSHFT    &kp X
                         >;
                 };
         };
