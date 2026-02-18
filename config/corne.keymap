@@ -52,6 +52,7 @@
                                            &kp LGUI    &mo 2        &kp LSHFT         &kp SPACE     &mo 1       &to 1
                         >;
                 };
+/*
                 L1_layer {
                         display-name = "Lower";
                         bindings = <
@@ -88,5 +89,6 @@
                                            &kp LGUI     &trans       &kp LALT          &kp SPACE    &kp LSHFT    &kp X
                         >;
                 };
+*/
         };
 };
